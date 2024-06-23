@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+
+}
+
+
+.main-container{
+    width: 100vw;
+    height:auto;
+    background-color: lightgray;
+    
+    
+
+}
+
+.nav-container{
+    width: 100vw;
+    height: 15vh;
+    background-color: #48afff;
+    display: flex;
+    
+}
+
+.menu-icon{
+    color: white;
+    padding: 10px;
+    display: flex; 
+    margin-top: 8px;
+    
+    
+}
+.logo-img{
+    height: 60%;
+    width: 10%;
+    margin-top: 15px;
+}
+
+
+.search-bar{
+    height: 10vh;
+    width: 30%; /* Adjusted width for smaller screens */
+    border-radius: 5px;
+    border: none; 
+    margin-left: 320px; /* Adjusted margin for smaller screens */
+    margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+ }
+ 
+
+
+.micor{
+    color:#48afff;
+    margin-top:30px;
+    margin-left:-30px;
+          
+   
+}
+
+.log-in{
+    height: 52%;
+    width: 8%;
+    background-color: white;
+    border: none;
+    border-radius:5px;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #48afff;
+    font-size: 15px;
+    
+}
+
+.rigisters-btn{
+    height: 52%;
+    width: 7%;
+    color: white;
+    border-radius: 5px ;
+    margin-top: 18px;
+    background-color: #48afff;
+    margin-left: 20px;
+    border: 2px solid white;
+    font-size: 15px;
+}
+
+
+@media only screen and (min-width:280px) and (max-width:380px){
+    .main-container{
+        width: 100vw;
+    }
+
+    .nav-container{
+        width: 100vw;
+        flex-direction: column;
+        height: 50vh;
+    
+    }
+
+
+    .search-bar{
+     width: 50%;
+     height: 5vh;
+     margin-left: 90px;
+     padding: 10px;
+     position: absolute;
+     margin-top: 140px;        
+    }
+
+    .logo-img{
+        width: 20vw;
+        margin-left: 140px;
+     height: 7vh;
+        
+        
+
+        
+    }
+
+    .log-in{
+        width: 20vw;
+        padding: 10px;
+        height: 5vh;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 142px;
+        
+    }
+    .rigisters-btn{
+        width: 20vw;
+        height: 5vh;
+        margin-top:100px;
+        margin-left: 150px;
+    }
+
+    .gird-gallray{
+        display: grid;
+        grid-template-columns: repeat(2,1fr )!important;
+        width: 50%;
+        grid-gap:30px;
+         background-color: green;
+        position: relative;
+                
+    }
+
+
+    .off-btn{
+        height: 7%;
+        width: 60%!important;
+        font-size: 14px;
+        white-space: nowrap;
+       
+        
+    }
+
+    .second-flex-box{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .fist-content{
+        width: 50vh;
+       flex-direction: column;
+       margin-top: 100px;
+       background-color:white;
+       flex-wrap: nowrap;
+    }
+
+
+    .thrid-flex-box{
+        width: 100%!important;
+        flex-direction: column;
+        background-color: white;
+        margin-top: 100px!important;
+        height: 10vh;
+    }
+
+    .thrid-flex-box img{
+        width: 40vw!important;
+        
+    }
+
+.first-footer{
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 500px;
+    
+}
+
+.first-footer img{
+    width: 30%!important;
+}
+
+.customer-services{
+    
+    position: relative;
+    margin-left: 250px!important;
+    font-size: 14px!important;
+    margin-top: 40px!important;
+}
+    .footersec-anchors{
+         width: 50vw;
+         margin-left: 250px!important;
+    }
+
+    .py-mt {
+        width: 50vw;
+        
+        margin-left: 200px!important;
+        margin-top: 250px!important;
+        font-size: 14px!important;
+    }
+
+   .py-img{
+    flex-direction: column;
+   } 
+   
+        .first-img{
+            width:100%!important;
+            height: 50vh!important;
+            margin-left:210px!important;
+            margin-top: 10px!important;
+            font-size: 100px;
+            
+        }
+    
+   .play-storeimg{
+        width:10 !important;
+        height: 10vh;
+        margin-left: 200px!important;
+        
+        margin-top:  -150px!important;
+    } 
+
+    .second-footer{
+    display: flex;
+    background-color: #48afff;
+    flex-direction: column;
+    height: 100vh;
+    }
+
+    .pric-p{
+        
+        margin-left: 150px!important;
+    }
+
+     .soical-icons{
+        width:100vw!important;
+        height: 40vh!important;
+      position: absolute;
+        margin-left:50px!important;
+        text-align: center;
+        background-color: #48afff;
+        margin-top: 200px!important;
+        
+    
+    }
+
+        
+      
+}
+    
+    
+
+    
+    
+
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+    .main-container{
+        width: 100vw;
+        
+    }
+    .nav-container{
+        width: 100%;
+        flex-direction: column;
+        height: 40vh;      
+        
+    }
+    .search-bar{
+        width: 50%;
+        position: absolute;
+        margin-left:100px;
+        height: 5vh;
+        margin-top: 150px;
+               
+        
+            }
+            .logo-img{
+                height: 13%;
+                width: 30%;
+                margin-left: 140px;
+                position: relative;
+                margin-bottom: 100px;
+            }
+
+            .log-in{
+                width: 25vw;
+                height: 5vh;
+                position: absolute;
+                margin-top: 230px;
+            }
+
+            .rigisters-btn{
+                height: 3vh;
+                width: 8vh;
+                margin-left: 160px;
+                margin-top: 40px;
+            }
+
+            
+            
+            .rigisters-btn1{
+                height: 3vh;
+                width: 8vh;
+                margin-left: 160px;
+                margin-top: 40px;
+            }
+
+    
+            .viewall-btn{
+                position: absolute;
+                
+                margin-top: 55px!important;
+
+                margin-left: 270px;
+                white-space: nowrap;
+            }
+
+            .gird-gallray {
+             
+                display: grid;
+                grid-template-columns: repeat(2,1fr )!important;
+                width: 100%;
+       
+                
+
+            }
+         
+         
+         
+        
+}
+
+.icons {
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     display: flex; 
+   
+}
+
+
+.anchor-icons ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.anchor-icons li {
+    margin-right: 50px;
+    margin-top:60px;
+    white-space: nowrap;
+}
+
+.anchor-icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    
+   
+}
+
+.anchor-icons a img {
+    text-decoration: none;
+    color: black;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     display: flex; 
+   
+}
+
+.anchor-icons a img :hover{
+    background-color: gray;
+    position: fixed;
+}
+
+/* Add a hover effect */
+.anchor-icons a:hover {
+    text-decoration: underline 4px;
+    color: #48afff; 
+    
+    
+    
+}
+
+
+.viewall-btn{
+    font-size: 16px;
+    float: right;
+    color: #48afff;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.earbuds-P{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  
+}
+
+.gird-gallray{
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5,1fr );
+    gap:2px;
+    width: 100vw;
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 15px;
+     overflow: hidden;
+   
+          
+        
+}
+
+.gird-gallray img{
+    width: 90%;
+    height: 50%;
+}
+
+.gird-gallray s{
+  
+    text-decoration-color: red;
+    color: black;
+    
+
+}
+
+.first-box{
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+}
+
+.off-btn{
+ height: 7%;
+ width:40%;
+ background-color: #f0faf7;
+ border-radius: 10px;
+ color: #0bb07e;
+ border: none;
+ font-size: 14px;
+ 
+}
+
+     
+.second-flex-box{
+       display: flex;
+       background-color: white;
+       width: 35vw;
+       margin-left: 20px;
+       height:100vh;
+       border-radius: 5px;
+            
+       
+         
+       
+}
+
+
+.second-flex-box img{
+    height: 65vh;
+    width: 25vw;
+    margin-left: 80px;
+    
+    
+
+    
+}
+
+.fist-content s{
+
+    text-decoration-color: red;
+    color: black;
+
+}
+
+
+
+ .thrid-flex-box{
+    display: flex;
+     background-color: white;
+     margin-left: 100px;
+     width:25vw;
+     height: 50vh;
+     padding: 10px;
+     border-radius: 5px;
+     
+
+
+}
+
+.thrid-flex-box img{
+    width: 20vw;
+    height: 25vh;
+    padding-left :20px;
+    margin-left: 10px;
+    
+}
+
+.mob-price{
+    margin-top: 170px;
+    position: absolute;
+    display: flex;
+    margin-right: 500px;
+    font-size: 14px;
+}
+
+.forth-flex-box{
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+    width:25vw;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 17px;
+   
+ 
+
+}
+.forth-flex-box img{
+    width: 20vw;
+    height: 25vh;
+    margin-left: 10px;
+}
+
+  
+.forth-flex-box s {
+    text-decoration-color: red;
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.forth-flex-box .off-btn {
+    margin-right: 200px;
+    position: inherit;
+}
+
+.laptop-price{
+    margin-right: 200px;
+    position: absolute;
+    margin-top: 160px;
+    font-size: 14px;
+}
+
+.forth-flex-box .off-btn{
+    
+    margin-top: 200px;
+    white-space: nowrap;
+}
+
+.fifth-flex-box{
+    background-color:white;
+    display: inline-block;
+    height: 50vh;
+    width: 25vw;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+    margin-left: 520px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fifth-flex-box img{
+    width: 20vw;
+    height: 25vh;
+    margin-left: 10px;
+}
+.fifth-flex-box s {
+    text-decoration-color: red;
+    color: black;
+}
+
+.six-flex-box{
+    background-color: white;
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    margin-left: 880px;
+    margin-top: 320px;
+    background-color: white;
+    overflow: hidden;
+        
+
+}   
+
+.six-flex-box img{
+    width: 20vw;
+    height: 25vh;
+    margin-left: 50px;
+
+
+}
+
+.six-flex-box s {
+    text-decoration-color: red;
+    color: black;
+}
+
+.smart-Watches{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.first-footer{
+    background-color: #48afff;
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    overflow-wrap: normal;
+    
+}
+
+.footerfst-anchors{
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    position:absolute;
+    margin-top: 100px!important;
+   margin: auto;
+   margin-left: 50px;
+   cursor: pointer;    
+    
+}
+
+
+.customer-services{
+    color: white;
+    font-size: 18px;
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.footersec-anchors{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+
+.py-img{
+ display: flex;
+ margin-top: 70px;
+    
+
+}
+
+.first-img{
+    width: 50%;
+    height: 30%;
+    margin-left: 620px;
+    margin-top: 0px;
+}
+
+.play-storeimg{
+    height: 15%;
+    width: 50%;
+    margin-right: 600px;
+    margin-top: 140px;
+}
+
+
+.py-mt{
+    color:white;
+    font-size: 18px;
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+
+.second-footer{
+    display: flex;
+    background-color: #3eabff;
+     width: 100vw;
+     height: 12vh;
+}
+
+.pric-p{
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  margin-left: 50px;
+  
+
+}
+
+.soical-icons{
+   margin-top: 15px;
+   text-align: center;
+   margin-left: 480px;
+   padding-left: 20px;
+   cursor: pointer;
+   display: flex;
+   gap: 10px;
+   font-size: 10px;
+}
+
+.soical-icons img{
+    height: 50%;
+    width: 50%;
+    
+}
